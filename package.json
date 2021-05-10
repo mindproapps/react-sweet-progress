@@ -3,6 +3,9 @@
   "version": "1.1.2",
   "description": "",
   "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "clean:lib": "del lib",
     "start": "npm i && cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.babel.js",
@@ -12,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abraztsov/react-sweet-progress.git"
+    "url": "https://github.com/mindproapps/react-sweet-progress.git"
   },
   "author": "Nikita Abraztsov (https://github.com/abraztsov)",
   "license": "MIT",
