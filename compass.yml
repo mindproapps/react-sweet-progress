@@ -1,0 +1,17 @@
+name: react-sweet-progress
+id: ari:cloud:compass:2b99fbf0-9255-4920-bdd7-f06d6b59afe8:component/0fdaeab7-5117-4dbc-b8a9-ada7f2cbbff9/d7ed1462-4276-4643-8a45-4b02a65fabfb
+description: A way to quickly add a progress bar to react app 🌈
+configVersion: 1
+typeId: UI_ELEMENT
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/mindproapps/react-sweet-progress
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:javascript
+  - source:github
+customFields: null
